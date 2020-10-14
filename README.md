@@ -27,8 +27,15 @@ A) Running the app using docker and docker compose
 B) Running the app using virtualenv or VENV
 -------------------------------------------------
 -  Install invoice app package
+
+
+
 ```
 $VENV/bin/pip install -e .
+ ```
+ 
+```
+$VENV/bin/pip install -r requirements.txt
  ```
 
  - Initialize the database
