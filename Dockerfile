@@ -14,11 +14,11 @@ WORKDIR /opt/invoicing
 COPY . .
 # upgrade pip
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends gcc \
+    && apt-get install -y --no-install-recommends gcc postgresql \
     && python -m venv ENV_DIR $VENV_PATH \
     && pip install -U pip \
     && pip install -e . \
     && pip install -r requirements.txt \
     && rm -rf /var/lib/apt/lists/*
 
-EXPOSE 8000
+EXPOSE 8000 5432 443 22

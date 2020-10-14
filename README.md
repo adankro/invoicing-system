@@ -79,7 +79,7 @@ json body example :
 {
       "id":1,
       "invoice_id": 1,
-      "description": "play station 5",
+      "description": "PlayStation 5",
       "amount":2000,
       "units":2
 
@@ -95,5 +95,4 @@ GET http://localhost:8000/invoice
 ``` url
 GET http://localhost:8000/invoice_item
  ```
-
 
