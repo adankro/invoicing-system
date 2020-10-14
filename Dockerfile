@@ -18,7 +18,7 @@ RUN apt-get update \
     && python -m venv ENV_DIR $VENV_PATH \
     && pip install -U pip \
     && pip install -e . \
-    && pip install -r requeriments.txt \
+    && pip install -r requirements.txt \
     && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 8000
