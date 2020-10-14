@@ -79,7 +79,7 @@ json body example :
 {
       "id":1,
       "invoice_id": 1,
-      "description": "playStation 5",
+      "description": "playtation 5",
       "amount":2000,
       "units":2
 
