@@ -117,6 +117,6 @@ Questions
 
 3. If we had to add some tests to this project, but we had limited time, what would you do?
 
-- Create integration testing to englobe several components and use cases, using tools like Cypress or bdd testing, helps to have a useful test on place.
+- Create integration testing to englobe several components and use cases.
 
 - Use a parametrized unit test for those cases that are  repetitive use cases such as in a model CRUD for REST API.
