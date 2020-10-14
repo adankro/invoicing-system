@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  web:
+    build:
+      context: .
+    image: invoicing
+    command: ["./invoicing/scripts/start_server.sh"]
+    volumes:
+      - .:/opt/invoicing
+
