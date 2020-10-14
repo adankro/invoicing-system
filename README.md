@@ -102,7 +102,7 @@ Questions
 
  1. If we wanted to keep track of who needs to pay the invoice, and who needs to get paid for the invoice, how would you extend the application?
 
-- I would add a new model for the invoce vendor and another for the invoice customer, these two models will have a primary key like an id and the additional details like tax_id, name, address, email and phone that will be related as a forentkey on the invoice entity.
+- I would add a new model for the invoce vendor and another for the invoice customer, these two models will have a primary key like an id and the additional details like tax_id, name, address, email and phone that will be related as a foreign key on the invoice entity.
 
  ![alt text](https://github.com/adankro/invoicing-system/blob/dev/images/add_tables.png?raw=true)
 
@@ -117,6 +117,6 @@ Questions
 
 3. If we had to add some tests to this project, but we had limited time, what would you do?
 
-- Create integration testing to englobe several components and use cases, using tools like Cipress or bdd testing, helps to have a useful test on place.
+- Create integration testing to englobe several components and use cases, using tools like Cypress or bdd testing, helps to have a useful test on place.
 
 - Use a parametrized unit test for those cases that are  repetitive use cases such as in a model CRUD for REST API.
